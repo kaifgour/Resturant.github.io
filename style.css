@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Simonetta:ital@1&display=swap");
+
+.nav-flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    width: 100%;
+    padding: 0px;
+
+}
+.nav-flex-row li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px 15px;
+}
+/* .nav-flex-row li a{
+    
+} */
+
+.section-intro{
+    height: 800px;
+    background-image: url(maincover.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-flex-row li a{
+    color: white;
+    font-size: 1.5em;
+    padding: 0px 5px;
+    text-transform: uppercase;
+}
+.section-intro h1{
+    margin-top: -200px;
+    font-family: 'Big Shoulders Text', cursive;
+    color: white;
+    font-size: xxx-large;
+    text-shadow: 0px 0px 2px;
+    letter-spacing: 2px;
+}
+.link-to-book-wrapper {
+    margin-top: -100px;
+    background-color: #d88848;
+    height: 35px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+.section-intro a{
+    font-family: 'Big Shoulders Text', cursive;
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+}
+.feedback-section p{
+    font-size: larger;
+    font-family: 'Simonetta', cursive;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+}
+.feedback-section h2{
+    text-align: center;
+    font-size: 2.5em;
+    padding: 10px;
+    font-family: 'Big Shoulders Text', cursive;
+    text-transform: uppercase;
+}
+.carousel-inner{
+    height: 600px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.btn.btn-primary{
+    font-family: 'Big Shoulders Text', cursive;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    background: #d88848;
+    border: 1px solid black;
+    color: black;
+}
+span{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.container{
+    padding: 15px;
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 22px;
+}
+.text-center{
+    font-size: 18px;
+}
+.container>p{
+    padding-top: 10px;
+}
+.footer{
+    background:  #d88848;
+    width: 100%;
+    margin: 0px;
+    height: 20px;
+}
+
+
+footer>h5{
+    margin-bottom: 2px;
+}
+.contact{
+    margin-bottom: 2px;
+    color: black;
+    font-family: 'Big Shoulders Text', cursive;
+    padding: 5px;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    
+}
+.top-btn{
+    text-decoration: none; 
+    color: black; 
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 22px;
+    padding: 5px;
+}
+.copyright{
+    text-align: center;
+    color: black;
+    margin-bottom: 0px;
+   
+}
+button.btn{
+    background-color: #d88848;
+}
+.delivery{
+    padding: 3px;
+}
+
+@media (min-width:577px) and (max-width: 800px){
+    .carousel-inner{
+        height: auto;
+    }
+    .section-intro {
+        height: 500px;
+    }
+    .row-flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-flex-row{
+        font-size: large;
+     }
+}
+@media screen and (max-width: 576px){
+    .carousel-inner{
+        height: auto;
+    }
+    .section-intro {
+        height: 300px;
+    }
+    .section-intro h1 {
+        font-size: 2em;
+        margin-top: -10px;
+    }
+    .link-to-book-wrapper{
+        margin-top: 20px;
+    }
+    .nav-flex-row{
+       font-size: small;
+    }
+
+}
