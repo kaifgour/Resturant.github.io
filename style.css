@@ -161,22 +161,32 @@ button.btn{
         font-size: large;
      }
 }
-@media screen and (max-width: 576px){
+@media (min-width:300px) and (max-width: 576px){
     .carousel-inner{
         height: auto;
     }
     .section-intro {
-        height: 300px;
+        
+        height: 300px!important;
+        width: 390px!important;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
     }
     .section-intro h1 {
         font-size: 2em;
         margin-top: -10px;
+        background-image: inherit;
     }
     .link-to-book-wrapper{
         margin-top: 20px;
     }
     .nav-flex-row{
-       font-size: small;
+       font-size: 10px;
+       display: block;
     }
 
 }
